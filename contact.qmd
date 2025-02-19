@@ -6,7 +6,7 @@ about:
   links:
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/reed-crocker-86b1b913a/
+      href: https://www.linkedin.com/in/rwcrocker/
     - icon: github
       text: Github
       href: https://github.com/rwcrocker
