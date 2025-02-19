@@ -1,0 +1,19 @@
+---
+title: "Placeholder Post"
+subtitle: "Placeholder subtitle"
+author: "Reed Crocker"
+date: today
+format:
+  html:
+    comments:
+          giscus:
+            repo: rwcrocker/rwcrocker
+            category: "Comments"
+            mapping: "pathname"
+            reactions-enabled: true
+            loading: lazy
+            input-position: "bottom"
+            theme:
+              dark: assets/styles/reed-dark.scss
+              light: assets/styles/reed-light.scss
+---

@@ -1,0 +1,17 @@
+---
+title: "Projects"
+listing:
+    contents: blog
+    type: grid
+    categories: true
+    fields: [image, title]
+format:
+  html:
+    css: assets/styles/experience.css
+---
+
+::: {.callout-caution}
+# Work in Progress
+This page is still under construction.
+Progress coming soon!
+:::

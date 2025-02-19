@@ -1,0 +1,26 @@
+---
+title: "Reed Crocker"
+subtitle: "Analyst  |  Scientist  |  Engineer"
+about:
+  template: jolla
+  image: assets/img/portrait_cropped.jpg
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/reed-crocker-86b1b913a/
+    - icon: github
+      text: Github
+      href: https://github.com/rwcrocker
+    - icon: envelope-at
+      text: Email
+      href: mailto:rwcrocker1@gmail.com
+format: 
+  html:
+    css: assets/styles/index.css
+---
+
+Data professional at the intersection of analytics, machine learning, and life sciences.
+
+Passionate about designing creative, data-driven solutions that solve real-world problems.
+
+Always excited to explore new challenges and learn new things.

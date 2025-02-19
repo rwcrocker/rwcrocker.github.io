@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/experience.html",
+    "items": [
+      "/experiences/montai.html",
+      "/experiences/boston_childrens.html",
+      "/experiences/kenyon_lab.html",
+      "/experiences/kenyon_ed.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/blog/blogpost_placeholder.html",
+      "/blog/geb_mu_puzzle.html"
+    ]
+  }
+]

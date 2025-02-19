@@ -1,0 +1,32 @@
+---
+title: "Analytics Engineer"
+subtitle: "Montai Therapeutics"
+date-start: "2022-08" 
+date-end: "2024-09"
+categories:
+  - "Work"
+  - "Current"
+---
+
+## Summary
+At Montai, I work with an interdisciplinary team of analysts, engineers, and scientists to build the company's core data platform.
+Although my official title is Data Scientist, my role entails responsibilities closer to an Analytics Engineer.
+
+## Institution
+
+[Montai Therapeutics](https://www.montai.com/) is a machine-learning drug discovery start-up based in Cambridge, MA. The company's mission is to leverage analytics and machine learning to predictably discover small-molecule therapeutics for chronic disease.
+
+## Responsibilites
+
+My current role at Montai includes:
+
+* Gathering context and project requirements from key stakeholder
+* Developing data models to serve core data products  
+* Creating web applications and reports to improve data-driven decisions
+* Writing clear documentation for both technical and general audiences
+* Leading design sessions to plan upcoming data archetecture
+* Collaborating across teams to ensure proper data quality and governances
+
+
+
+

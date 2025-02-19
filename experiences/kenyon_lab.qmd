@@ -1,0 +1,29 @@
+---
+title: "Undergraduate Researcher"
+subtitle: "Kenyon College"
+date-start: "2017-08" 
+date-end: "2020-06"
+categories:
+  - "Education"
+---
+
+## Summary
+For three years, I worked as an Undergraduate Researcher in the molecular toxicology lab of Dr. Wade Powell. 
+
+## Institution
+
+[Kenyon College](https://www.kenyon.edu/) is a liberal arts institution known for rigorous academics, independent research, and emphasis on interdisciplinary learning. 
+
+My independent scientific research at Kenyon was performed in the molecular toxicology lab of Dr. Wade Powell, PhD. The lab studied environmental toxicants and their effect on the endocrine system.
+
+## Responsibilities
+
+My responsibilities as a undergraduate researcher included:
+
+* Designing and conducting molecular biology experiments
+* Analyzing research data and synthesizing conclusions
+* Meticulously documenting my approach and findings in lab notebooks
+* Presenting results to lab meetings, poster sessions, and more
+* Training new members of the lab
+
+Ultimately, my research in the lab would lead me to complete an Honor's Thesis and receive High Honors for my public presentation and defense.

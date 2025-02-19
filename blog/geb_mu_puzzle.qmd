@@ -1,0 +1,27 @@
+---
+title: "Visualizing the MU Puzzle"
+author: "Reed Crocker"
+date: today
+format:
+  html:
+    comments:
+          giscus:
+            repo: rwcrocker/rwcrocker
+            category: "Comments"
+            mapping: "pathname"
+            reactions-enabled: true
+            loading: lazy
+            input-position: "bottom"
+            theme:
+              dark: assets/styles/reed-dark.scss
+              light: assets/styles/reed-light.scss
+---
+
+MU, MIU, MIUIU, MIUIUIUIU, ...
+
+If you've ever found yourself scratching these hieroglyphs into the margins of a paperback, you've likely encountered the MU Puzzle. It's a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It's certainly not light reading, but I've always had an aspiration read it cover to cover.
+
+However, a puzzle introduced early in the book has always captured by imagination. 
+
+
+

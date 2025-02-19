@@ -1,0 +1,24 @@
+---
+title: "Let's Chat!"
+about:
+  template: solana
+  image: assets/img/portrait_cropped.jpg
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/reed-crocker-86b1b913a/
+    - icon: github
+      text: Github
+      href: https://github.com/rwcrocker
+    - icon: envelope-at
+      text: Email
+      href: mailto:rwcrocker1@gmail.com
+format: 
+  html:
+    css: assets/styles/index.css
+---
+
+Please reach out to talk about data, science, technology, or opportunities for collaboration!
+
+
+

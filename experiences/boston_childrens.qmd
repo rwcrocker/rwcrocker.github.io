@@ -1,0 +1,22 @@
+---
+title: "Research Assistant - Bioinformatics"
+subtitle: "Boston Children's Hospital"
+date-start: "2020-08" 
+date-end: "2022-08"
+categories:
+  - "Work"
+---
+
+## Summary
+For two years, I worked as a Research Assistant in the Vascular Biology lab of Dr. Timothy Hla at Boston Children's Hospital.
+
+## Institution
+
+[Boston Children's Hospital](https://www.childrenshospital.org/) is a leading pediatric medical center known for its groundbreaking research and innovation. The hospital's partnership with [Harvard Medical School](https://hms.harvard.edu/) fosters a dynamic and collaborative scientific environment for discovery and clinical innovation.
+
+# Responsibilities
+
+As a Research Assistant, my responsibilities in the lab included both wet-work and bioinformatics analysis. However, I quickly evolved into the lab's primary bioinformatics specialist and spent the majority of my time generating, cleaning, and analyzing single-cell RNA sequencing data in models of vascular pathogenesis.
+
+
+

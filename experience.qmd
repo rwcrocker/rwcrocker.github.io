@@ -1,0 +1,15 @@
+---
+title: "Experience"
+listing:
+    contents: experiences
+    type: default
+    categories: true
+    sort: 
+      - "date-end desc"
+      - "date-start desc"
+    fields: [title, subtitle, date-start, date-end]
+format:
+  html:
+    css: assets/styles/experience.css
+---
+
