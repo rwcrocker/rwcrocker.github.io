@@ -1,108 +1,52 @@
 [
   {
-    "objectID": "experiences/kenyon_ed.html",
-    "href": "experiences/kenyon_ed.html",
-    "title": "BA, Biology",
-    "section": "",
-    "text": "I earned my Bachelor of Arts in Biology from Kenyon College in May 2020, gaining a strong foundation in scientific inquiry and problem solving."
-  },
-  {
-    "objectID": "experiences/kenyon_ed.html#summary",
-    "href": "experiences/kenyon_ed.html#summary",
-    "title": "BA, Biology",
-    "section": "",
-    "text": "I earned my Bachelor of Arts in Biology from Kenyon College in May 2020, gaining a strong foundation in scientific inquiry and problem solving."
-  },
-  {
-    "objectID": "experiences/kenyon_ed.html#institution",
-    "href": "experiences/kenyon_ed.html#institution",
-    "title": "BA, Biology",
-    "section": "Institution",
-    "text": "Institution\nKenyon College is a liberal arts institution in Gambier, Ohio, known for rigorous academics, independent research, and emphasis on interdisciplinary learning."
-  },
-  {
-    "objectID": "experiences/kenyon_ed.html#impact",
-    "href": "experiences/kenyon_ed.html#impact",
-    "title": "BA, Biology",
-    "section": "Impact",
-    "text": "Impact\nKenyon fostered my curiosity and honed my critical thinking, research, and communication skills—qualities that continue to guide me today. Studying Biology gave me a strong grounding in data-driven reasoning, whether it was designing experiments, analyzing results, or interpreting patterns. The interdisciplinary nature of my liberal arts education encouraged me to explore connections between seemingly unrelated fields, which now helps me bridge gaps between technical and business needs.\nKenyon’s emphasis on writing and communication also shaped my ability to present complex ideas in a way that is accessible and actionable. Whether I’m collaborating with stakeholders or building scalable solutions, the habits I developed at Kenyon are at the core of how I approach my work today."
-  },
-  {
-    "objectID": "experiences/kenyon_lab.html",
-    "href": "experiences/kenyon_lab.html",
-    "title": "Undergraduate Researcher",
-    "section": "",
-    "text": "For three years, I worked as an Undergraduate Researcher in the molecular toxicology lab of Dr. Wade Powell."
-  },
-  {
-    "objectID": "experiences/kenyon_lab.html#summary",
-    "href": "experiences/kenyon_lab.html#summary",
-    "title": "Undergraduate Researcher",
-    "section": "",
-    "text": "For three years, I worked as an Undergraduate Researcher in the molecular toxicology lab of Dr. Wade Powell."
-  },
-  {
-    "objectID": "experiences/kenyon_lab.html#institution",
-    "href": "experiences/kenyon_lab.html#institution",
-    "title": "Undergraduate Researcher",
-    "section": "Institution",
-    "text": "Institution\nKenyon College is a liberal arts institution known for rigorous academics, independent research, and emphasis on interdisciplinary learning.\nMy independent scientific research at Kenyon was performed in the molecular toxicology lab of Dr. Wade Powell, PhD. The lab studied environmental toxicants and their effect on the endocrine system."
-  },
-  {
-    "objectID": "experiences/kenyon_lab.html#responsibilities",
-    "href": "experiences/kenyon_lab.html#responsibilities",
-    "title": "Undergraduate Researcher",
-    "section": "Responsibilities",
-    "text": "Responsibilities\nMy responsibilities as a undergraduate researcher included:\n\nDesigning and conducting molecular biology experiments\nAnalyzing research data and synthesizing conclusions\nMeticulously documenting my approach and findings in lab notebooks\nPresenting results to lab meetings, poster sessions, and more\nTraining new members of the lab\n\nUltimately, my research in the lab would lead me to complete an Honor’s Thesis and receive High Honors for my public presentation and defense."
-  },
-  {
-    "objectID": "blog/blogpost_placeholder.html",
-    "href": "blog/blogpost_placeholder.html",
-    "title": "Placeholder Post",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "Experience",
-    "section": "",
-    "text": "Analytics Engineer\n\n\nMontai Therapeutics\n\n\n\n\n\n2022-08\n\n\n2024-09\n\n\n\n\n\n\n\nResearch Assistant - Bioinformatics\n\n\nBoston Children’s Hospital\n\n\n\n\n\n2020-08\n\n\n2022-08\n\n\n\n\n\n\n\nUndergraduate Researcher\n\n\nKenyon College\n\n\n\n\n\n2017-08\n\n\n2020-06\n\n\n\n\n\n\n\nBA, Biology\n\n\nKenyon College\n\n\n\n\n\n2016-08\n\n\n2020-06\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "TODO.html",
-    "href": "TODO.html",
-    "title": "TODO",
-    "section": "",
-    "text": "TODO\n\nBlog/Project Posts\nGiscus integration for commenting : https://giscus.app/\nFormat some images for Experiences listing page\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Let’s Chat!",
-    "section": "",
-    "text": "Please reach out to talk about data, science, technology, or opportunities for collaboration!\n\n\n Back to top"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Work in Progress\n\n\n\nThis page is still under construction. Progress coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlaceholder Post\n\n\n\n\n\n\n\n\n\n\n\nVisualizing the MU Puzzle\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Reed Crocker",
-    "section": "",
-    "text": "Data professional at the intersection of analytics, machine learning, and life sciences.\nPassionate about designing creative, data-driven solutions that solve real-world problems.\nAlways excited to explore new challenges and learn new things.\n\n\n Back to top"
-  },
-  {
-    "objectID": "blog/geb_mu_puzzle.html",
-    "href": "blog/geb_mu_puzzle.html",
+    "objectID": "wip/geb_mu_puzzle.html",
+    "href": "wip/geb_mu_puzzle.html",
     "title": "Visualizing the MU Puzzle",
     "section": "",
     "text": "If you’ve ever found yourself scratching these hieroglyphs into the margins of a paperback, you’ve likely encountered the MU Puzzle. It’s a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It’s certainly not light reading, but I’ve always had an aspiration to read it cover to cover.\nHowever, a puzzle introduced early in the book has always captured by imagination.\nThe MU Puzzle is introduced early in the book and presents a simple situation. You begin with the string “MI” and apply a set of four transformation rules to generate new strings. The goal? Determine whether you can produce “MU” through a sequence of legal moves.\nThe rules are as follows:\nIf a string ends in “I”, you can append “U”. If you have “Mx”, you can duplicate “x” (e.g., “MIU” → “MIUIU”). Any occurrence of “III” can be replaced with “U”. Any occurrence of “UU” can be removed. Despite its straightforward premise, the puzzle quickly becomes an exercise in pattern recognition and logical deduction. It also serves as an introduction to formal systems—mathematical structures governed by strict rules, much like the axioms of number theory or the logic underlying computer science."
+  },
+  {
+    "objectID": "wip/geb_mu_puzzle.html#mi-miu-miuiu-miuiuiuiu",
+    "href": "wip/geb_mu_puzzle.html#mi-miu-miuiu-miuiuiuiu",
+    "title": "Visualizing the MU Puzzle",
+    "section": "",
+    "text": "If you’ve ever found yourself scratching these hieroglyphs into the margins of a paperback, you’ve likely encountered the MU Puzzle. It’s a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It’s certainly not light reading, but I’ve always had an aspiration to read it cover to cover.\nHowever, a puzzle introduced early in the book has always captured by imagination.\nThe MU Puzzle is introduced early in the book and presents a simple situation. You begin with the string “MI” and apply a set of four transformation rules to generate new strings. The goal? Determine whether you can produce “MU” through a sequence of legal moves.\nThe rules are as follows:\nIf a string ends in “I”, you can append “U”. If you have “Mx”, you can duplicate “x” (e.g., “MIU” → “MIUIU”). Any occurrence of “III” can be replaced with “U”. Any occurrence of “UU” can be removed. Despite its straightforward premise, the puzzle quickly becomes an exercise in pattern recognition and logical deduction. It also serves as an introduction to formal systems—mathematical structures governed by strict rules, much like the axioms of number theory or the logic underlying computer science."
+  },
+  {
+    "objectID": "wip/geb_mu_puzzle.html#visualizing-the-mu-puzzle",
+    "href": "wip/geb_mu_puzzle.html#visualizing-the-mu-puzzle",
+    "title": "Visualizing the MU Puzzle",
+    "section": "Visualizing the MU Puzzle",
+    "text": "Visualizing the MU Puzzle\nRather than working through sequences manually, I wanted to take a more visual approach to explore how different transformations play out. Using Quarto, Python, and a simple recursive algorithm, I generated a branching tree of possible transformations. The result is a dynamic visualization of the puzzle’s search space—one that reveals just how quickly the number of possible states grows.\n(Here, I could insert a graph or animation generated from a small script, illustrating the first few layers of the MU derivation tree.)"
+  },
+  {
+    "objectID": "wip/geb_mu_puzzle.html#what-the-mu-puzzle-teaches-us",
+    "href": "wip/geb_mu_puzzle.html#what-the-mu-puzzle-teaches-us",
+    "title": "Visualizing the MU Puzzle",
+    "section": "What the MU Puzzle Teaches Us",
+    "text": "What the MU Puzzle Teaches Us\nBeyond its mathematical charm, the MU Puzzle is an excellent example of how simple rules can lead to complex behavior. It’s a microcosm of bigger ideas in computation, undecidability, and even AI. Can we algorithmically determine if “MU” is reachable? Spoiler: No. Hofstadter uses this puzzle to introduce Gödel’s incompleteness theorem, showing that even within well-defined systems, some questions remain unanswerable.\n\n\n\nMU Puzzle Simulator\n\n\nMI\n\nRule 1: Append U if ending in I Rule 2: Duplicate after M Rule 3: Replace III with U Rule 4: Remove UU Reset\n\n\n```"
+  },
+  {
+    "objectID": "experiences/boston_childrens.html",
+    "href": "experiences/boston_childrens.html",
+    "title": "Research Assistant - Bioinformatics",
+    "section": "",
+    "text": "For two years, I worked as a Research Assistant in the Vascular Biology lab of Dr. Timothy Hla at Boston Children’s Hospital."
+  },
+  {
+    "objectID": "experiences/boston_childrens.html#summary",
+    "href": "experiences/boston_childrens.html#summary",
+    "title": "Research Assistant - Bioinformatics",
+    "section": "",
+    "text": "For two years, I worked as a Research Assistant in the Vascular Biology lab of Dr. Timothy Hla at Boston Children’s Hospital."
+  },
+  {
+    "objectID": "experiences/boston_childrens.html#institution",
+    "href": "experiences/boston_childrens.html#institution",
+    "title": "Research Assistant - Bioinformatics",
+    "section": "Institution",
+    "text": "Institution\nBoston Children’s Hospital is a leading pediatric medical center known for its groundbreaking research and innovation. The hospital’s partnership with Harvard Medical School fosters a dynamic and collaborative scientific environment for discovery and clinical innovation."
   },
   {
     "objectID": "experiences/montai.html",
@@ -133,45 +77,101 @@
     "text": "Responsibilites\nMy current role at Montai includes:\n\nGathering context and project requirements from key stakeholder\nDeveloping data models to serve core data products\n\nCreating web applications and reports to improve data-driven decisions\nWriting clear documentation for both technical and general audiences\nLeading design sessions to plan upcoming data archetecture\nCollaborating across teams to ensure proper data quality and governances"
   },
   {
-    "objectID": "experiences/boston_childrens.html",
-    "href": "experiences/boston_childrens.html",
-    "title": "Research Assistant - Bioinformatics",
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
     "section": "",
-    "text": "For two years, I worked as a Research Assistant in the Vascular Biology lab of Dr. Timothy Hla at Boston Children’s Hospital."
+    "text": "Analytics Engineer\n\n\nMontai Therapeutics\n\n\n\n\n\n2022-08\n\n\n2024-09\n\n\n\n\n\n\n\nResearch Assistant - Bioinformatics\n\n\nBoston Children’s Hospital\n\n\n\n\n\n2020-08\n\n\n2022-08\n\n\n\n\n\n\n\nUndergraduate Researcher\n\n\nKenyon College\n\n\n\n\n\n2017-08\n\n\n2020-06\n\n\n\n\n\n\n\nBA, Biology\n\n\nKenyon College\n\n\n\n\n\n2016-08\n\n\n2020-06\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "experiences/boston_childrens.html#summary",
-    "href": "experiences/boston_childrens.html#summary",
-    "title": "Research Assistant - Bioinformatics",
+    "objectID": "TODO.html",
+    "href": "TODO.html",
+    "title": "TODO",
     "section": "",
-    "text": "For two years, I worked as a Research Assistant in the Vascular Biology lab of Dr. Timothy Hla at Boston Children’s Hospital."
+    "text": "TODO\n\nBlog/Project Posts\nGiscus integration for commenting : https://giscus.app/\nFormat some images for Experiences listing page\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "experiences/boston_childrens.html#institution",
-    "href": "experiences/boston_childrens.html#institution",
-    "title": "Research Assistant - Bioinformatics",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Let’s Chat!",
+    "section": "",
+    "text": "Please reach out to talk about data, science, technology, or opportunities for collaboration!\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Work in Progress\n\n\n\nThis page is still under construction. Progress coming soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlaceholder Post\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Reed Crocker",
+    "section": "",
+    "text": "Data professional at the intersection of analytics, machine learning, and life sciences.\nPassionate about designing creative, data-driven solutions that solve real-world problems.\nAlways excited to explore new challenges and learn new things.\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/blogpost_placeholder.html",
+    "href": "blog/blogpost_placeholder.html",
+    "title": "Placeholder Post",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "experiences/kenyon_lab.html",
+    "href": "experiences/kenyon_lab.html",
+    "title": "Undergraduate Researcher",
+    "section": "",
+    "text": "For three years, I worked as an Undergraduate Researcher in the molecular toxicology lab of Dr. Wade Powell."
+  },
+  {
+    "objectID": "experiences/kenyon_lab.html#summary",
+    "href": "experiences/kenyon_lab.html#summary",
+    "title": "Undergraduate Researcher",
+    "section": "",
+    "text": "For three years, I worked as an Undergraduate Researcher in the molecular toxicology lab of Dr. Wade Powell."
+  },
+  {
+    "objectID": "experiences/kenyon_lab.html#institution",
+    "href": "experiences/kenyon_lab.html#institution",
+    "title": "Undergraduate Researcher",
     "section": "Institution",
-    "text": "Institution\nBoston Children’s Hospital is a leading pediatric medical center known for its groundbreaking research and innovation. The hospital’s partnership with Harvard Medical School fosters a dynamic and collaborative scientific environment for discovery and clinical innovation."
+    "text": "Institution\nKenyon College is a liberal arts institution known for rigorous academics, independent research, and emphasis on interdisciplinary learning.\nMy independent scientific research at Kenyon was performed in the molecular toxicology lab of Dr. Wade Powell, PhD. The lab studied environmental toxicants and their effect on the endocrine system."
   },
   {
-    "objectID": "blog/geb_mu_puzzle.html#mi-miu-miuiu-miuiuiuiu",
-    "href": "blog/geb_mu_puzzle.html#mi-miu-miuiu-miuiuiuiu",
-    "title": "Visualizing the MU Puzzle",
+    "objectID": "experiences/kenyon_lab.html#responsibilities",
+    "href": "experiences/kenyon_lab.html#responsibilities",
+    "title": "Undergraduate Researcher",
+    "section": "Responsibilities",
+    "text": "Responsibilities\nMy responsibilities as a undergraduate researcher included:\n\nDesigning and conducting molecular biology experiments\nAnalyzing research data and synthesizing conclusions\nMeticulously documenting my approach and findings in lab notebooks\nPresenting results to lab meetings, poster sessions, and more\nTraining new members of the lab\n\nUltimately, my research in the lab would lead me to complete an Honor’s Thesis and receive High Honors for my public presentation and defense."
+  },
+  {
+    "objectID": "experiences/kenyon_ed.html",
+    "href": "experiences/kenyon_ed.html",
+    "title": "BA, Biology",
     "section": "",
-    "text": "If you’ve ever found yourself scratching these hieroglyphs into the margins of a paperback, you’ve likely encountered the MU Puzzle. It’s a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It’s certainly not light reading, but I’ve always had an aspiration to read it cover to cover.\nHowever, a puzzle introduced early in the book has always captured by imagination.\nThe MU Puzzle is introduced early in the book and presents a simple situation. You begin with the string “MI” and apply a set of four transformation rules to generate new strings. The goal? Determine whether you can produce “MU” through a sequence of legal moves.\nThe rules are as follows:\nIf a string ends in “I”, you can append “U”. If you have “Mx”, you can duplicate “x” (e.g., “MIU” → “MIUIU”). Any occurrence of “III” can be replaced with “U”. Any occurrence of “UU” can be removed. Despite its straightforward premise, the puzzle quickly becomes an exercise in pattern recognition and logical deduction. It also serves as an introduction to formal systems—mathematical structures governed by strict rules, much like the axioms of number theory or the logic underlying computer science."
+    "text": "I earned my Bachelor of Arts in Biology from Kenyon College in May 2020, gaining a strong foundation in scientific inquiry and problem solving."
   },
   {
-    "objectID": "blog/geb_mu_puzzle.html#visualizing-the-mu-puzzle",
-    "href": "blog/geb_mu_puzzle.html#visualizing-the-mu-puzzle",
-    "title": "Visualizing the MU Puzzle",
-    "section": "Visualizing the MU Puzzle",
-    "text": "Visualizing the MU Puzzle\nRather than working through sequences manually, I wanted to take a more visual approach to explore how different transformations play out. Using Quarto, Python, and a simple recursive algorithm, I generated a branching tree of possible transformations. The result is a dynamic visualization of the puzzle’s search space—one that reveals just how quickly the number of possible states grows.\n(Here, I could insert a graph or animation generated from a small script, illustrating the first few layers of the MU derivation tree.)"
+    "objectID": "experiences/kenyon_ed.html#summary",
+    "href": "experiences/kenyon_ed.html#summary",
+    "title": "BA, Biology",
+    "section": "",
+    "text": "I earned my Bachelor of Arts in Biology from Kenyon College in May 2020, gaining a strong foundation in scientific inquiry and problem solving."
   },
   {
-    "objectID": "blog/geb_mu_puzzle.html#what-the-mu-puzzle-teaches-us",
-    "href": "blog/geb_mu_puzzle.html#what-the-mu-puzzle-teaches-us",
-    "title": "Visualizing the MU Puzzle",
-    "section": "What the MU Puzzle Teaches Us",
-    "text": "What the MU Puzzle Teaches Us\nBeyond its mathematical charm, the MU Puzzle is an excellent example of how simple rules can lead to complex behavior. It’s a microcosm of bigger ideas in computation, undecidability, and even AI. Can we algorithmically determine if “MU” is reachable? Spoiler: No. Hofstadter uses this puzzle to introduce Gödel’s incompleteness theorem, showing that even within well-defined systems, some questions remain unanswerable.\n\n\n\nMU Puzzle Simulator\n\n\nMI\n\nRule 1: Append U if ending in I Rule 2: Duplicate after M Rule 3: Replace III with U Rule 4: Remove UU Reset\n\n\n```"
+    "objectID": "experiences/kenyon_ed.html#institution",
+    "href": "experiences/kenyon_ed.html#institution",
+    "title": "BA, Biology",
+    "section": "Institution",
+    "text": "Institution\nKenyon College is a liberal arts institution in Gambier, Ohio, known for rigorous academics, independent research, and emphasis on interdisciplinary learning."
+  },
+  {
+    "objectID": "experiences/kenyon_ed.html#impact",
+    "href": "experiences/kenyon_ed.html#impact",
+    "title": "BA, Biology",
+    "section": "Impact",
+    "text": "Impact\nKenyon fostered my curiosity and honed my critical thinking, research, and communication skills—qualities that continue to guide me today. Studying Biology gave me a strong grounding in data-driven reasoning, whether it was designing experiments, analyzing results, or interpreting patterns. The interdisciplinary nature of my liberal arts education encouraged me to explore connections between seemingly unrelated fields, which now helps me bridge gaps between technical and business needs.\nKenyon’s emphasis on writing and communication also shaped my ability to present complex ideas in a way that is accessible and actionable. Whether I’m collaborating with stakeholders or building scalable solutions, the habits I developed at Kenyon are at the core of how I approach my work today."
   }
 ]
