@@ -1,0 +1,79 @@
+---
+title: "Visualizing the MU Puzzle"
+author: "Reed Crocker"
+date: today
+format:
+  html:
+    comments:
+          giscus:
+            repo: rwcrocker/rwcrocker
+            category: "Comments"
+            mapping: "pathname"
+            reactions-enabled: true
+            loading: lazy
+            input-position: "bottom"
+            theme:
+              dark: assets/styles/reed-dark.scss
+              light: assets/styles/reed-light.scss
+---
+
+## MI, MIU, MIUIU, MIUIUIUIU, ...
+
+If you've ever found yourself scratching these hieroglyphs into the margins of a paperback, you've likely encountered the MU Puzzle. It's a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It's certainly not light reading, but I've always had an aspiration to read it cover to cover.
+
+However, a puzzle introduced early in the book has always captured by imagination.
+
+The MU Puzzle is introduced early in the book and presents a simple situation. You begin with the string "MI" and apply a set of four transformation rules to generate new strings. The goal? Determine whether you can produce "MU" through a sequence of legal moves.
+
+The rules are as follows:
+
+If a string ends in "I", you can append "U". If you have "Mx", you can duplicate "x" (e.g., "MIU" → "MIUIU"). Any occurrence of "III" can be replaced with "U". Any occurrence of "UU" can be removed. Despite its straightforward premise, the puzzle quickly becomes an exercise in pattern recognition and logical deduction. It also serves as an introduction to formal systems—mathematical structures governed by strict rules, much like the axioms of number theory or the logic underlying computer science.
+
+## Visualizing the MU Puzzle
+
+Rather than working through sequences manually, I wanted to take a more visual approach to explore how different transformations play out. Using Quarto, Python, and a simple recursive algorithm, I generated a branching tree of possible transformations. The result is a dynamic visualization of the puzzle’s search space—one that reveals just how quickly the number of possible states grows.
+
+(Here, I could insert a graph or animation generated from a small script, illustrating the first few layers of the MU derivation tree.)
+
+## What the MU Puzzle Teaches Us
+
+Beyond its mathematical charm, the MU Puzzle is an excellent example of how simple rules can lead to complex behavior. It's a microcosm of bigger ideas in computation, undecidability, and even AI. Can we algorithmically determine if "MU" is reachable? Spoiler: No. Hofstadter uses this puzzle to introduce Gödel’s incompleteness theorem, showing that even within well-defined systems, some questions remain unanswerable.
+
+
+::: {=html}
+<div>
+  <h3>MU Puzzle Simulator</h3>
+  <p id="mu-string" style="font-size: 24px; font-weight: bold;">MI</p>
+  
+  <button onclick="applyRule(1)">Rule 1: Append U if ending in I</button>
+  <button onclick="applyRule(2)">Rule 2: Duplicate after M</button>
+  <button onclick="applyRule(3)">Rule 3: Replace III with U</button>
+  <button onclick="applyRule(4)">Rule 4: Remove UU</button>
+  <button onclick="resetString()">Reset</button>
+</div>
+
+<script>
+function applyRule(rule) {
+  let elem = document.getElementById("mu-string");
+  let str = elem.innerText;
+  
+  if (rule === 1 && str.endsWith("I")) {
+    str += "U";
+  } else if (rule === 2 && str.startsWith("M")) {
+    let rest = str.substring(1);
+    str = "M" + rest + rest;
+  } else if (rule === 3 && str.includes("III")) {
+    str = str.replace("III", "U");
+  } else if (rule === 4 && str.includes("UU")) {
+    str = str.replace("UU", "");
+  }
+
+  elem.innerText = str;
+}
+
+function resetString() {
+  document.getElementById("mu-string").innerText = "MI";
+}
+</script>
+```
+:::

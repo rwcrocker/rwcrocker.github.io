@@ -102,7 +102,7 @@
     "href": "blog/geb_mu_puzzle.html",
     "title": "Visualizing the MU Puzzle",
     "section": "",
-    "text": "MU, MIU, MIUIU, MIUIUIUIU, …\nIf you’ve ever found yourself scratching these hieroglyphs into the margins of a paperback, you’ve likely encountered the MU Puzzle. It’s a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It’s certainly not light reading, but I’ve always had an aspiration read it cover to cover.\nHowever, a puzzle introduced early in the book has always captured by imagination.\n\n\n\n Back to top"
+    "text": "If you’ve ever found yourself scratching these hieroglyphs into the margins of a paperback, you’ve likely encountered the MU Puzzle. It’s a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It’s certainly not light reading, but I’ve always had an aspiration to read it cover to cover.\nHowever, a puzzle introduced early in the book has always captured by imagination.\nThe MU Puzzle is introduced early in the book and presents a simple situation. You begin with the string “MI” and apply a set of four transformation rules to generate new strings. The goal? Determine whether you can produce “MU” through a sequence of legal moves.\nThe rules are as follows:\nIf a string ends in “I”, you can append “U”. If you have “Mx”, you can duplicate “x” (e.g., “MIU” → “MIUIU”). Any occurrence of “III” can be replaced with “U”. Any occurrence of “UU” can be removed. Despite its straightforward premise, the puzzle quickly becomes an exercise in pattern recognition and logical deduction. It also serves as an introduction to formal systems—mathematical structures governed by strict rules, much like the axioms of number theory or the logic underlying computer science."
   },
   {
     "objectID": "experiences/montai.html",
@@ -152,5 +152,26 @@
     "title": "Research Assistant - Bioinformatics",
     "section": "Institution",
     "text": "Institution\nBoston Children’s Hospital is a leading pediatric medical center known for its groundbreaking research and innovation. The hospital’s partnership with Harvard Medical School fosters a dynamic and collaborative scientific environment for discovery and clinical innovation."
+  },
+  {
+    "objectID": "blog/geb_mu_puzzle.html#mi-miu-miuiu-miuiuiuiu",
+    "href": "blog/geb_mu_puzzle.html#mi-miu-miuiu-miuiuiuiu",
+    "title": "Visualizing the MU Puzzle",
+    "section": "",
+    "text": "If you’ve ever found yourself scratching these hieroglyphs into the margins of a paperback, you’ve likely encountered the MU Puzzle. It’s a puzzle, or maybe more of a lesson, from the book Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter. The book is a dense, esoteric tome on meta-mathematics, paradoxes, and how they relate to the nature of thought itself. It’s certainly not light reading, but I’ve always had an aspiration to read it cover to cover.\nHowever, a puzzle introduced early in the book has always captured by imagination.\nThe MU Puzzle is introduced early in the book and presents a simple situation. You begin with the string “MI” and apply a set of four transformation rules to generate new strings. The goal? Determine whether you can produce “MU” through a sequence of legal moves.\nThe rules are as follows:\nIf a string ends in “I”, you can append “U”. If you have “Mx”, you can duplicate “x” (e.g., “MIU” → “MIUIU”). Any occurrence of “III” can be replaced with “U”. Any occurrence of “UU” can be removed. Despite its straightforward premise, the puzzle quickly becomes an exercise in pattern recognition and logical deduction. It also serves as an introduction to formal systems—mathematical structures governed by strict rules, much like the axioms of number theory or the logic underlying computer science."
+  },
+  {
+    "objectID": "blog/geb_mu_puzzle.html#visualizing-the-mu-puzzle",
+    "href": "blog/geb_mu_puzzle.html#visualizing-the-mu-puzzle",
+    "title": "Visualizing the MU Puzzle",
+    "section": "Visualizing the MU Puzzle",
+    "text": "Visualizing the MU Puzzle\nRather than working through sequences manually, I wanted to take a more visual approach to explore how different transformations play out. Using Quarto, Python, and a simple recursive algorithm, I generated a branching tree of possible transformations. The result is a dynamic visualization of the puzzle’s search space—one that reveals just how quickly the number of possible states grows.\n(Here, I could insert a graph or animation generated from a small script, illustrating the first few layers of the MU derivation tree.)"
+  },
+  {
+    "objectID": "blog/geb_mu_puzzle.html#what-the-mu-puzzle-teaches-us",
+    "href": "blog/geb_mu_puzzle.html#what-the-mu-puzzle-teaches-us",
+    "title": "Visualizing the MU Puzzle",
+    "section": "What the MU Puzzle Teaches Us",
+    "text": "What the MU Puzzle Teaches Us\nBeyond its mathematical charm, the MU Puzzle is an excellent example of how simple rules can lead to complex behavior. It’s a microcosm of bigger ideas in computation, undecidability, and even AI. Can we algorithmically determine if “MU” is reachable? Spoiler: No. Hofstadter uses this puzzle to introduce Gödel’s incompleteness theorem, showing that even within well-defined systems, some questions remain unanswerable.\n\n\n\nMU Puzzle Simulator\n\n\nMI\n\nRule 1: Append U if ending in I Rule 2: Duplicate after M Rule 3: Replace III with U Rule 4: Remove UU Reset\n\n\n```"
   }
 ]
