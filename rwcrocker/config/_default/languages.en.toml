@@ -1,0 +1,22 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Reed Crocker"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2006"
+  description = "A curious programmer, scientist, and data professional."
+
+  [params.author]
+    name = "Reed Crocker"
+    image = "img/portrait_cropped.jpg"
+    headline = "Engineer | Analyst | Scientist"
+    links = [
+      { linkedin = "https://www.linkedin.com/in/rwcrocker/" },
+      { github = "https://github.com/rwcrocker" },
+      { email = "mailto:rwcrocker1@gmail.com" },
+    ]

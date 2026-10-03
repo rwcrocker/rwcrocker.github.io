@@ -1,0 +1,11 @@
+baseURL = 'https://rwcrocker.github.io/'
+locale = 'en-us'
+title = 'Reed Crocker'
+theme = 'blowfish'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+  unsafe = true

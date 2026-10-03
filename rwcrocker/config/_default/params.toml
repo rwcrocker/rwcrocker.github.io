@@ -1,0 +1,30 @@
+colorScheme = "burufugu"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+
+[header]
+  layout = "basic"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+
+[article]
+  showDate = false
+  showReadingTime = false
+  showWordCount = false
+  showAuthor = false
+  showPagination = false
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  showCards = false
+  groupByYear = false
