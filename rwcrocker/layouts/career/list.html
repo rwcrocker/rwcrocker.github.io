@@ -1,0 +1,43 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title | emojify }}</h1>
+  </header>
+  <section class="prose max-w-full dark:prose-invert mt-6">{{ .Content }}</section>
+
+  {{/* Vertical timeline: the present is at the top and time runs downward.
+       Each entry is a block placed by its start/end front matter; `lane` puts overlapping entries side by side. */}}
+  {{ $pxPerYear := 110.0 }}
+  {{ $secPerYear := 31557600.0 }}
+  {{ $topYear := add now.Year 1 }}
+  {{ $topUnix := (time.AsTime (printf "%d-01-01" $topYear)).Unix }}
+  {{ $minYear := now.Year }}
+  {{ range .Pages }}{{ $minYear = math.Min $minYear (time.AsTime .Params.start).Year }}{{ end }}
+  {{ $minYear = int $minYear }}
+  {{ $height := mul (sub $topYear $minYear) $pxPerYear }}
+  {{ $lanes := 1 }}
+  {{ range .Pages }}{{ $lanes = math.Max $lanes (add (int (.Params.lane | default 0)) 1) }}{{ end }}
+
+  <div class="career-chart" style="height: {{ $height }}px; --lanes: {{ $lanes }}">
+    <div class="career-grid">
+      {{ range seq 0 (sub $topYear $minYear) }}
+        <div class="career-tick" style="top: {{ mul . $pxPerYear }}px"><span>{{ sub $topYear . }}</span></div>
+      {{ end }}
+      {{ range .Pages }}
+        {{ $s := (time.AsTime .Params.start).Unix }}
+        {{ $e := now.Unix }}{{ with .Params.end }}{{ $e = (time.AsTime .).Unix }}{{ end }}
+        {{ $y := mul (div (sub $topUnix $e) $secPerYear) $pxPerYear }}
+        {{ $h := mul (div (sub $e $s) $secPerYear) $pxPerYear }}
+        {{ $lane := int (.Params.lane | default 0) }}
+        {{ $cat := index (.Params.categories | default (slice "Work")) 0 }}
+        <a class="career-block career-{{ lower $cat }}" href="{{ .RelPermalink }}"
+          style="top: {{ $y }}px; height: {{ sub $h 6 }}px; left: calc({{ $lane }} * 100% / var(--lanes)); width: calc(100% / var(--lanes) - 8px)">
+          <span class="career-cat">{{ $cat }}</span>
+          <strong class="career-role">{{ .Params.role }}</strong>
+          <span class="career-org">{{ .Params.org }}</span>
+          <span class="career-dates">{{ .Description }}</span>
+          <span class="career-summary">{{ .Params.summary }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

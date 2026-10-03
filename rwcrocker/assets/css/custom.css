@@ -1,0 +1,45 @@
+/* Career timeline (layouts/career/list.html) */
+.career-chart { position: relative; margin: 2.5rem 0 3rem; padding-left: 64px; }
+.career-grid { position: relative; height: 100%; }
+.career-tick {
+  position: absolute; left: -64px; right: 0; border-top: 1px dashed rgba(var(--color-neutral-400), 0.6);
+}
+.career-tick span {
+  position: absolute; top: -0.7em; left: 0; width: 52px; text-align: right;
+  font-size: 0.8rem; color: rgb(var(--color-neutral-500));
+  background: rgb(var(--color-neutral)); padding-right: 4px;
+}
+:root.dark .career-tick span, .dark .career-tick span { background: rgb(var(--color-neutral-800)); }
+.career-block {
+  position: absolute; box-sizing: border-box; overflow: hidden;
+  display: flex; flex-direction: column; gap: 0.15rem;
+  padding: 0.7rem 0.9rem; border-radius: 0.6rem; text-decoration: none !important;
+  color: #fff !important; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.career-block:hover { transform: translateX(2px); box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); }
+.career-work { background: rgb(var(--color-primary-600)); }
+.career-education { background: rgb(var(--color-secondary-600)); }
+.career-block > * { color: #fff !important; }
+.career-cat { font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.8; }
+.career-role { font-size: 1.05rem; line-height: 1.25; }
+.career-org { font-size: 0.9rem; font-weight: 600; }
+.career-dates { font-size: 0.8rem; opacity: 0.85; }
+.career-summary { margin-top: 0.4rem; font-size: 0.85rem; line-height: 1.35; opacity: 0.95; }
+@media (max-width: 640px) {
+  .career-chart { padding-left: 48px; }
+  .career-tick { left: -48px; }
+  .career-tick span { width: 40px; }
+  .career-summary { display: none; }
+  .career-block { padding: 0.5rem 0.6rem; }
+}
+
+/* Contact page: centered layout (content/contact/index.md wraps its body in .contact-page) */
+article:has(.contact-page) #single_header { max-width: none; text-align: center; }
+article:has(.contact-page) section { justify-content: center; }
+article:has(.contact-page) .article-content { max-width: 52rem; width: 100%; margin-inline: auto; text-align: center; }
+article:has(.contact-page) .lead { max-width: 36rem; margin-inline: auto; }
+article:has(.contact-page) article.group { text-align: center; }
+/* Make the whole feature card clickable by stretching its link over the card */
+article:has(.contact-page) article.group { position: relative; cursor: pointer; }
+article:has(.contact-page) article.group a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }

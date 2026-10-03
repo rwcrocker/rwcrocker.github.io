@@ -1,0 +1,31 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "hugo"
+version = "0.167.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/39/af/43934c9d8e0d4d77fa8af5815239e1a0dedae58e9800a72f340f5b1f3fee/hugo-0.167.0.tar.gz", hash = "sha256:7814e2666113c752897f9301bc9bf8ac6128d1637c4435e1bfc7299f60435a4d", size = 4714051, upload-time = "2026-09-29T14:17:30.946Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/12/c6/12489520ce81a2dd76719482a14e9d69bce19841273e53eadb4cbb9560e1/hugo-0.167.0-py3-none-macosx_10_15_x86_64.whl", hash = "sha256:7e29dcc858f6baab4c7e6107eb18408bf71bbe37ec9572dd6c070403b6a3aeb9", size = 30335046, upload-time = "2026-09-29T14:17:06.098Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/02/8d1d07f40cd176cb62f40daf041919f012ee68af0e7024e936e66bee8e5f/hugo-0.167.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:2e49976cec3c468ea137e7ab302068e5bca58b37967f5c8d002a1cf47045a1c3", size = 28342622, upload-time = "2026-09-29T14:17:09.003Z" },
+    { url = "https://files.pythonhosted.org/packages/fd/03/9483b1c1214a3c8d50c1b26e7d0ea9cbc6fc4ee8caeb1b42f8ca04c9ed72/hugo-0.167.0-py3-none-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:d9639c48438c9f56872fa94fe4eb3f8873db37a25f69c3097150084041756fb8", size = 27560090, upload-time = "2026-09-29T14:17:11.837Z" },
+    { url = "https://files.pythonhosted.org/packages/05/0a/679103f87d2df4e516bf56dbf4776c9f0005580b1bf5ef8d13cd5402a025/hugo-0.167.0-py3-none-manylinux_2_24_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:df389f682bcf77cc658118aa973f7916603bfac041ce25a4aeb6f3556b7d6da9", size = 27444838, upload-time = "2026-09-29T14:17:14.705Z" },
+    { url = "https://files.pythonhosted.org/packages/5f/41/10c5c8200e0aa3500eb061d8629ad8abe3cbd81b1f624b55ca42b938dc22/hugo-0.167.0-py3-none-manylinux_2_24_s390x.manylinux_2_28_s390x.whl", hash = "sha256:86770808e851894f68a3c8fb5bbcbce1450f512f8f7e15e0192326c1567fce3c", size = 29677268, upload-time = "2026-09-29T14:17:17.551Z" },
+    { url = "https://files.pythonhosted.org/packages/2e/47/6926aac2102fd40476222c9e7769574ef7acb8f39c2a8ca001f6fcb8c72d/hugo-0.167.0-py3-none-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ef515d153184047086e35216c53bb345f780e833181a6556d6a50bd840b9caf2", size = 30259549, upload-time = "2026-09-29T14:17:20.162Z" },
+    { url = "https://files.pythonhosted.org/packages/86/13/3ec947e454910bc94b465216ed82f51e9290fe8fc44d4f54264531cc3515/hugo-0.167.0-py3-none-win32.whl", hash = "sha256:d4ec77c825ed38bc047a2c197f0ef03d3cc7109490536a4321e8645eb7260a9c", size = 29959803, upload-time = "2026-09-29T14:17:22.724Z" },
+    { url = "https://files.pythonhosted.org/packages/54/85/39f8426a6b29bb4a9f8e564cd79bc682957f117e4a9f7516037a1342e7ad/hugo-0.167.0-py3-none-win_amd64.whl", hash = "sha256:3f479c9ee76aecb981b95004beafb6e415332491e45f81bbd538d17c4f4d520f", size = 31970613, upload-time = "2026-09-29T14:17:25.492Z" },
+    { url = "https://files.pythonhosted.org/packages/6f/f7/25de71961b3a520c3276781bc9e885ab61130c80ce0420ee0d47f2e48fc7/hugo-0.167.0-py3-none-win_arm64.whl", hash = "sha256:eaa1c10212b09d5278c7e4a55767b7d96555ea536ac7a9a572545002b79e4cf2", size = 28707624, upload-time = "2026-09-29T14:17:28.377Z" },
+]
+
+[[package]]
+name = "rwcrocker-github-io"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "hugo" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "hugo", specifier = ">=0.167.0" }]
